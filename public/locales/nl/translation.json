@@ -1,0 +1,21 @@
+{
+  "navigation": {
+    "about": "Over Webmoov",
+    "blog": "Blog",
+    "services": "Diensten"
+  },
+  "over-webmoov": {
+    "title": "Over Webmoov",
+    "description": "Dit is de Nederlandstalige pagina 'Over Webmoov'."
+  },
+
+  "blog": {
+    "title": "Mijn visie op kwalitatieve en innnovatieve websites",
+    "description": "Dit is de Nederlandstalige pagina 'Blog'."
+  },
+
+  "diensten": {
+    "title": "Website Ontwerp & Ontwikkeling Diensten",
+    "description": "Dit is de Nederlandstalige pagina 'Diensten'."
+  }
+}

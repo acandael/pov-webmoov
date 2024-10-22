@@ -1,0 +1,12 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { t, changeLanguage } from "i18next";
+changeLanguage("en");
+---
+
+<BaseLayout>
+  
+  <h1>{t('about.title')}</h1>
+  <p>{t('about.description')}</p>
+
+</BaseLayout> 

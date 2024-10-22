@@ -1,0 +1,21 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "blog": "Blog",
+    "services": "Services"
+  },
+  "about": {
+    "title": "About Webmoov",
+    "description": "This is the English page 'About'."
+  },
+  "blog": {
+    "title": "Writings about quality websites",
+    "description": "This is the English page 'About'."
+  },
+
+  "services": {
+    "title": "Website Design & Development Services",
+    "description": "This is the English page 'Services'."
+  }
+}

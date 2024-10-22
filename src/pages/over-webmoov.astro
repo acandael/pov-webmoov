@@ -1,0 +1,13 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import i18next, { t, changeLanguage } from "i18next";
+changeLanguage("nl");
+---
+
+<BaseLayout>
+  
+<h1>{t("over-webmoov.title")}</h1>
+<p>{t('over-webmoov.description')}</p>
+
+</BaseLayout>
