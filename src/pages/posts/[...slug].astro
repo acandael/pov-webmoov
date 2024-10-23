@@ -1,0 +1,19 @@
+---
+import { getEntry, render } from 'astro:content'
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import i18next, { changeLanguage } from "i18next";
+
+const { slug } = Astro.params
+const post = await getEntry('posts', `nl/${slug}`)
+if (!post) {
+	return Astro.redirect('/404')
+}
+
+const { Content, headings } = await render(post);
+changeLanguage('nl');
+---
+
+<BaseLayout>
+<Content />
+</BaseLayout>
+
